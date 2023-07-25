@@ -2,10 +2,10 @@
 #include <HTTPClient.h>
 #include <UrlEncode.h>
 
-const char* ssid = "Superbox_Wifi_7830";
-const char* password = "52J836mG3A";
-String MobileNumber = "905312887601";
-String APIKey = "1810192";
+const char* ssid = "Wi-Fi Adı";
+const char* password = "Wi-Fi Parolası";
+String MobileNumber = "Tel No";
+String APIKey = "Apı Key";
 #include <dht11.h> // dht11 kütüphanesini kodlarımıza dahil ediyoruz.
 int DhtPin=25; // DhtPin olarak Dijital 2'yi belirliyoruz.
 dht11 dht_sensor; 
